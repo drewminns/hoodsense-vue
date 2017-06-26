@@ -1,0 +1,36 @@
+$basepx: 16px;
+$smallpx: 13px;
+$typeweight: 300;
+$headingweight: 900;
+$fontface: "Greycliff CF";
+
+$max-container-width: 1080px;
+
+$xl: 1200px;
+$lg: 996px;
+$md: 768px;
+$sm: 544px;
+$columns: 12;
+
+$gutter: 20px;
+$padding: $gutter;
+
+$text: #282828;
+$black: #222;
+$black-light: #949494;
+$whitebg: #F5F8FA;
+$white: #fff;
+$background: #DBDBEB;
+$border: #E8E8E8;
+$blue: #592EFD;
+$blue-light: #80C9ED;
+$red: #FC0F45;
+$red-light: #FF7E84;
+$green: #36CF25;
+$turquiose: #1ED0AF;
+$yellow: #FFBA00;
+$yellow-light: #FFDA74;
+$sand: #5D6900;
+$sand-light: #879239;
+
+$boxShadow:  0 1px 3px 0 rgba(0,0,0,0.2);

@@ -1,0 +1,40 @@
+html {
+  font-size: 10px;
+  font-size: 62.5%;
+}
+
+body {
+  @include rem(font-size, $basepx);
+  font-family: $fontface, "Helvetica Neue", sans-serif;
+  font-weight: $typeweight;
+  color: $black;
+  line-height: 2;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5 {
+  font-weight: $headingweight;
+  line-height: 1.4;
+  margin-top: 0;
+  margin-bottom: .7rem;
+}
+
+h1, .h1 { @include rem(font-size, 40px); }
+h2, .h2 { @include rem(font-size, 32px); }
+h3, .h3 { @include rem(font-size, 28px); }
+h4, .h4 { @include rem(font-size, 24px); }
+h5, .h5 { @include rem(font-size, 20px); }
+
+p {
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+p.lead {
+  font-weight: $typeweight;
+  @include rem(font-size, 21px);
+  margin-bottom: 1rem;
+}
